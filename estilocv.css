@@ -1,0 +1,75 @@
+body {
+    background: url(https://img.freepik.com/vector-gratis/fondo-oscuro-hexagonos-minimos_79603-1454.jpg?w=360);
+    background-size: cover;
+}
+
+.principal {
+    color: white;
+    background-color: grey; 
+    width: 250px;
+    height: 250px;
+    border: black solid 5px;
+    margin: black  5px;
+    padding: black 5px;
+}
+
+
+.secundario1 {
+    background-color: grey;
+    background-size: cover;
+    border: black solid 3px;
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 5px white;
+}
+
+.secundario2 {
+    color: white;
+    background: url(https://d3ugyf2ht6aenh.cloudfront.net/stores/001/736/624/products/art11363-30526-04ba271cd3fff17cc216458901136396-640-0.jpg);
+    background-size: cover;
+    border: black solid 5px;
+    margin: 5pxc;
+    padding: 5px;
+    width: 600px;
+    font-family: 'Aboreto', cursive;
+    text-shadow: 2px 2px 5px grey;
+}
+h1 {
+    color: white;
+}
+.secundario3 {
+    background: url(https://static.vecteezy.com/system/resources/previews/005/130/785/non_2x/abstract-dark-red-grunge-texture-background-free-vector.jpg);
+    background-size: cover;
+    color: white;
+    border: black solid 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 600px;
+    font-family: 'Aboreto', cursive;
+    text-shadow: 2px 2px 5px grey;
+}
+.secundario4 {
+    background: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    color: white;
+    border: black solid 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 600px;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 2px 2px 5px grey;
+}
+.secundario5 {
+    background: url(https://us.123rf.com/450wm/iunewind/iunewind1609/iunewind160900047/62906710-claro-estudio-de-vectores-de-fondo-de-color-verde-oscuro-para-la-presentaci%C3%B3n-del-producto.jpg);
+    background-size: cover;
+    color: white;
+    border: black solid 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 600px;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 2px 2px 5px grey;
+}
+
+
+

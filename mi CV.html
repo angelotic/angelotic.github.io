@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" type="text/css" href="estilocv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Curriculum vitae</h1>
+    <div class="principal">
+         <img src="c4753cae-8cdf-47af-8ad3-94cd3d655cf4 - copia.jpeg" alt="imagen de perfil"
+         height="250px" width="250px">
+    </div>
+    <div class="secundario1">
+        <h2>datos personales</h2>
+        <ul>
+            <li>nombre: Angel Nahuel</li>
+            <li>apellido: Barrientos</li>
+            <li>DNI: 45908564</li>
+            <li>estado civil:soltereo</li>
+            <li>direccion: Zarate, provincia de Buenos Aires</li>
+            <li>nacionalidad: Argentina</li>
+            <li>celular: 3487328986</li>
+            <li>email: angelnahuelbarrientos1379@gmail.com</li>
+            <li>fecha de nacimiento: 15/06/2004</li>
+        </ul>
+    </div>
+    <div class="secundario2">
+        <h2>estudios realizados</h2>
+        <ul>
+            <li>Estudios primarios:completos</li>
+            <li>Realizados en: San Francisco de Asis, zarate</li>
+            <button type="button" onclick="document.getElementById('ubicacion1').style.display='block'">ubicacion aca </button>     
+            <a id="ubicacion1" style="display: none;" href="https://goo.gl/maps/xtTbsFYfRtof8gYv6">ubicacion de la escuela primaria</a>
+            <li>Estudios secundarios: completos</li>
+            <li>Titulo de electromecanico</li>
+            <button type="button" onclick="document.getElementById('titulo').style.display='block'" >imagen del titulo</button>
+            <div id="titulo" style="display: none;"><img src="titulo.jpeg" alt="imagen del Titulo" height="250px" width="550px"></div>
+            <li>realizados en: E.E.S.T Nº4</li>
+            <button type="button" onclick="document.getElementById('ubicacion').style.display='block'" >ubicacion aca</button>
+            <a id="ubicacion" style="display: none;" href="https://goo.gl/maps/qpDqeHUjg8qvKfAW8">ubicacion de la escuela secundaria</a>
+        </ul>
+    </div>
+    <div class="secundario3">
+        <h2>experiencias laborales</h2>
+        <ul>
+            <li>3 meses realizados en la fabrica <a href="https://industriasguidi.com.ar/">industrias Guidi</a>en el sector de administracion</li>
+            <li>curso de primeros pasos de front-end (en curso)</li>
+            <li>experiencia en instalacion electrica del hogar: media</li>
+            <li>experiencia en soldadura: basica</li>
+            <li>conocimineto del idioma ingles:medio</li>   
+            <li>experiencia en reparacion de motores: basica</li>
+            <li>utiizacion del paquete office: avanzada</li>   
+        </ul>
+    </div>
+    <div class="secundario4">
+        <h2>datos adicionales</h2>
+        <ul>
+            <li>licencia de conducir</li>
+            <button type="button" onclick="document.getElementById('carnet').style.display='block'" >imagen del carnet</button>
+            <div id="carnet" style="display: none;"><img src="foto carnet.jpeg" alt="imagen del carnet" height="250px" width="550px"></div>
+            <li>movilidad propia</li>
+        </ul>
+    </div>
+    <div class="secundario5">
+        <h2>perfil personal</h2>
+        <p>gran motivacion para seguir mejorando mis habiliades abierto a diferentes experiencias y aprendisajes para crecer profesionalmente,
+        soy bueno trabajando en diferentes grupos</p>
+    </div>
+</body>
+</html>
