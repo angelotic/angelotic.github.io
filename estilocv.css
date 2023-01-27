@@ -1,3 +1,4 @@
+@import "{{ site.theme }}";
 body {
     background: url(https://img.freepik.com/vector-gratis/fondo-oscuro-hexagonos-minimos_79603-1454.jpg?w=360);
     background-size: cover;
@@ -70,6 +71,6 @@ h1 {
     font-family: 'Roboto Mono', monospace;
     text-shadow: 2px 2px 5px grey;
 }
-@import "{{ site.theme }}";
+
 
 
